@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+    
+    
+    --font-principal: 'Krona One', sans-serif;
+    --font-second: 'mont Serrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    /* height: 100vh; para o projeto ocupar a altura inteira */
+    box-sizing: border-box;
+}
+
+
+.headnote {
+    padding: 2% 0 0 12%;
+}
+
+.headnote__menu {   
+    display: flex;
+    gap: 80px;
+}
+
+
+.headnote__menu__links {
+    font-family: var(--font-second);
+    font-size: 24px;
+    font-weight: 600;
+    color:var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.presentation {
+    padding: 5% 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentation__content {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.presentation__content__title {
+    font-size: 36px;
+    font-family: var(--font-principal);
+   
+
+}
+
+.presentation__content__text {
+    font-size: 24px;
+    font-family: var(--font-second);
+
+}
+
+.presentation__content__text a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+.title-emphasis {
+    color: var(--cor-terciaria);
+}
+
+.presentation__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.presentatio__links__subtitle {
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.presentation__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 378px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #F6F6F6;
+    border: 2px solid var(--cor-terciaria);
+    padding: 21.5px 0;
+    font-family: var(--font-second);
+}
+
+.presentation__links__link:hover {
+    background-color: #272727;
+    font-size: 26px;
+    padding:  4%;
+}
+
+.footnote {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    padding: 24px;
+    font-weight: 400;
+    text-align: center;
+    font-family: var(--font-second);
+    font-size: 24px;
+}
+
